@@ -130,7 +130,7 @@ function vim.fn.append(lnum, text) end
 --   mylist->appendbufline(buf, lnum)
 -- ```
 --- @param buf buffer
---- @param lnum number
+--- @param lnum number | string
 --- @param text string
 --- @return number
 function vim.fn.appendbufline(buf, lnum, text) end

@@ -855,8 +855,8 @@ function vim.fn.reg_recording() end
 --   GetStart()->reltime()
 -- ```
 -- Note: |localtime()| returns the current (non-relative) time.
---- @param start number
---- @param end_ number
+--- @param start? number
+--- @param end_? number
 --- @return any[]
 function vim.fn.reltime(start, end_) end
 
